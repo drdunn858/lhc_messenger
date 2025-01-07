@@ -4,7 +4,7 @@ scripts:
       cd ios
       flutter clean
       flutter pub get
-      flutter pub outdated
+      flutter pub outdated --transitive
       flutter pub add audio_session
       flutter pub add just_audio
       gem uninstall ffi
